@@ -1,14 +1,16 @@
+/* eslint-disable vue/no-unused-components */
 <template>
   <div>
-   <HomeHeader></HomeHeader>
+   <HomeHeader></homeHeader>
+   <HomeSwiper></HomeSwiper>
   </div>
 </template>
 
 <script>
 import HomeHeader from '../components/Header'
-
-export default {
-  components:{HomeHeader},
+import HomeSwiper from '../components/Swiper'
+export default{
+  components:{ HomeHeader,HomeSwiper },
   name: 'Home'
 }
 </script>
